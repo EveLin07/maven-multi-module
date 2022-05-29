@@ -24,6 +24,11 @@
 			<version>2.7.0</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+				<groupId>com.uni.fmi</groupId>
+				<artifactId>project_b</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
 	</dependencies>
 </dependencyManagement>
 	<build>
@@ -38,5 +43,6 @@
 
 	<modules>
 		<module>project_b</module>
+		<module>project_c</module>
 	</modules>
 </project>
